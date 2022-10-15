@@ -9,4 +9,3 @@ node_modules/
 cloudinary_python.txt
 *.sqlite3
 *.__pyc
-__pycache__
