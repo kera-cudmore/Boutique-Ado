@@ -81,13 +81,31 @@ Shields.io badges to go here.
 
 ### Languages Used
 
+HTML, CSS, JavaScript, Python
+
 ### Databases Used
 
+... - ...
+
 ### Frameworks Used
+
+[Django](https://www.djangoproject.com/) - Version - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 
 ### Libraries & Packages Used
 
 ### Programs Used
+
+[Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+[Shields.io](https://shields.io/) - To add badges to the projects documentation.
+
+[Git](https://git-scm.com/) - For version control.
+
+[GitHub](https://github.com/) - To save and store the files for this project.
+
+[Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
+
+[Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
 
 ---
 
