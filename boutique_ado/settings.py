@@ -85,7 +85,7 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # account authentication using either username or email 
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # account authentication using either username or email
 ACCOUNT_EMAIL_REQUIRED = True  # email required to register for the site
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'  # email verified so we know its a real email
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # email has to be entered twice on registration page to ensure no typos
