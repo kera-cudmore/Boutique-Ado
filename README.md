@@ -207,3 +207,5 @@ This project was created as part of a series of lessons with the Code Institute 
 ### Content
 
 ### Media
+
+A link to download the product images was provided by the Code Institute, who sourced the material from [kaggle](https://www.kaggle.com/).
