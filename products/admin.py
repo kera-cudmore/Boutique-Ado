@@ -16,7 +16,7 @@ class ProductAdmin(admin.ModelAdmin):
         'image',
     )
 
-    # ordering - this is a tuple, even though its only 1 field 
+    # ordering - this is a tuple, even though its only 1 field
     # use - in front to reverse
     ordering = ('sku',)
 
