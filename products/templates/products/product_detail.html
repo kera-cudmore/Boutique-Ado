@@ -51,6 +51,21 @@
                         {% csrf_token %}
                         <div class="form-row">
 
+                            <!-- sizes dropdown (if product has_sizes) -->
+                            {% with product.has_sizes as s %}
+                            {% if s %}
+                                <div class="col-12">
+                                    <p><strong>Size:</strong></p>
+                                    <select name="product_size" id="id_product_size" class="form-control rounded-0 w-50">
+                                        <option value="xs">XS</option>
+                                        <option value="s">S</option>
+                                        <option value="m" selected>M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                    </select>
+                                </div>
+                            {% endif %}
+
                             <!-- Where user will select the quantity to add to bag -->
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
@@ -63,7 +78,7 @@
                             </div>
 
                             <!-- submit button for form and keep shopping button -->
-                            <div class="col-12">
+                            <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
@@ -74,6 +89,7 @@
                             </div>
                             <!-- submits field called redirect_url - this allows us to redirect the user back to the previous page they were on -->
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            {% endwith %}
                         </div>
                     </form>
                 </div>
