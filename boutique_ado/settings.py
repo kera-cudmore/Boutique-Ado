@@ -71,7 +71,8 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by Allauth
+                # required by Allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'bag.contexts.bag_contents',
@@ -79,6 +80,8 @@ TEMPLATES = [
         },
     },
 ]
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -92,13 +95,20 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # account authentication using either username or email
-ACCOUNT_EMAIL_REQUIRED = True  # email required to register for the site
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'  # email verified so we know its a real email
-ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # email has to be entered twice on registration page to ensure no typos
-ACCOUNT_USERNAME_MIN_LENGTH = 4  # min length for the username
-LOGIN_URL = '/accounts/login'  # login url
-LOGIN_REDIRECT_URL = '/'  # this is the url to redirect to after logging in
+# account authentication using either username or email
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+# email required to register for the site
+ACCOUNT_EMAIL_REQUIRED = True
+# email verified so we know its a real email
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+# email has to be entered twice on registration page to ensure no typos
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
+# min length for the username
+ACCOUNT_USERNAME_MIN_LENGTH = 4
+# login url
+LOGIN_URL = '/accounts/login'
+# this is the url to redirect to after logging in
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
