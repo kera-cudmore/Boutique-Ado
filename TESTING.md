@@ -37,7 +37,7 @@ JS Hint
 
 ### Python Validation
 
-PEP8
+PEP8 style guideline compliance was checked using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/index.html) in the IDE due to the site pep8online.com being unavailable at the time of creating the project.
 
 ### Lighthouse Testing
 
