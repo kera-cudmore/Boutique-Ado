@@ -128,7 +128,8 @@ HTML, CSS, JavaScript, Python
 
 ### Databases Used
 
-... - ...
+sqlite3 - for the development database.
+ElephantSQL - For the deployed sites database.
 
 ### Frameworks Used
 
@@ -160,7 +161,9 @@ HTML, CSS, JavaScript, Python
 
 ### Deployment
 
-The site is deployed using ... To deploy using ...:
+The site is deployed using heroku. To deploy using heroku:
+
+1.
 
 ### Local Development
 
