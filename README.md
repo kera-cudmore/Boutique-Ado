@@ -215,6 +215,8 @@ This project was created as part of a series of lessons with the Code Institute 
 
 ### Content
 
+The content required for the site was provided as part of the lesson materials by the Code Institute.
+
 ### Media
 
 A link to download the product images was provided by the Code Institute, who sourced the material from [kaggle](https://www.kaggle.com/).
