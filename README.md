@@ -47,7 +47,7 @@ Link to deployed site: to go here.
 
 ---
 
-Responsive site image to go here. (Remove this banner placeholder when it does)
+Responsive site image to go here.
 
 ---
 
@@ -97,6 +97,10 @@ Responsive site image to go here. (Remove this banner placeholder when it does)
 ### Colour Scheme
 
 ### Typography
+
+The font Lato has been used throughout the site. This was imported into the CSS file from Google Fonts.
+
+![Lato Font Examples](documentation/lato-font.png)
 
 ### Imagery
 
