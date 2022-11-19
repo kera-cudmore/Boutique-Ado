@@ -20,7 +20,7 @@ class OrderForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         """
         Add placeholders and classes, remove auto-generated
-        lables and set autofocus on first field
+        labels and set autofocus on first field
         """
         super().__init__(*args, **kwargs)
         placeholders = {
@@ -39,7 +39,7 @@ class OrderForm(forms.ModelForm):
 
         for field in self.fields:
             if self.fields[field].required:
-                placeholder = f'{placeholder[field]} *'
+                placeholder = f'{placeholders[field]} *'
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
