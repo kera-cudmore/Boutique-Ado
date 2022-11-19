@@ -1,6 +1,7 @@
 /*
     Core logic/payment flow for this comes from here:
     https://stripe.com/docs/js
+    https://stripe.com/docs/payments/accept-a-payment	
 
     CSS from here:
     https://stripe.com/docs/stripe-js
@@ -24,7 +25,7 @@ var style = {
     },
     invalid: {
         color: '#dc3545',
-        iconcolor: '#dc3545'
+        iconColor: '#dc3545'
     }
 };
 
@@ -49,12 +50,14 @@ card.addEventListener('change', function (event) {
 });
 
 // Handle form submit
-var form = document.getElementById('payment-form')
+var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
     ev.preventDefault();
-    card.update({'disabled': true});
+    card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
+    $('#payment-form').fadeToggle(100);
+    $('#loading-overlay').fadeToggle(100);
     stripe.confirmCardPayment(clientSecret, {
         payment_method: {
             card: card,
@@ -68,7 +71,9 @@ form.addEventListener('submit', function(ev) {
                 </span>
                 <span>${result.error.message}</span>`;
             $(errorDiv).html(html);
-            card.update({'disabled': false});
+            $('#payment-form').fadeToggle(100);
+            $('#loading-overlay').fadeToggle(100);
+            card.update({ 'disabled': false});
             $('#submit-button').attr('disabled', false);
         } else {
             if (result.paymentIntent.status === 'succeeded') {
