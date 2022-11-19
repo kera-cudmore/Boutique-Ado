@@ -34,6 +34,7 @@ Link to deployed site: to go here.
   * [Frameworks Used](#frameworks-used)
   * [Libraries & Packages Used](#libraries--packages-used)
   * [Programs Used](#programs-used)
+  * [Stripe](#stripe)
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
@@ -154,6 +155,10 @@ ElephantSQL - For the deployed sites database.
 [Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
 
 [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
+
+### Stripe
+
+Stripe - setting up stripe elements to accept payment [docs](https://stripe.com/docs/js)
 
 ---
 
