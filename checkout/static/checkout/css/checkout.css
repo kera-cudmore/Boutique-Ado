@@ -36,6 +36,18 @@
     border: 1px solid #000;
 }
 
+/* Select dropdowns - show grey if invalid or when default option
+show as black when option selected */
+select,
+select option {
+    color: #000;
+}
+
+select:invalid,
+selection option[value=""] {
+    color: #aab7c4 !important;
+}
+
 /* LOADING OVERLAY SPINNER FOR PAYMENTS */
 #loading-overlay {
     display: none;
