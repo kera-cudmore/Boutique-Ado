@@ -24,6 +24,8 @@ class OrderAdmin(admin.ModelAdmin):
         'delivery_cost',
         'order_total',
         'grand_total',
+        'original_bag',
+        'stripe_pid',
     )
 
     # Not 100% necessary - but will allow us to specify the order of the
@@ -45,6 +47,8 @@ class OrderAdmin(admin.ModelAdmin):
         'delivery_cost',
         'order_total',
         'grand_total',
+        'original_bag',
+        'stripe_pid',
     )
 
     # This restricts the columns that show up in the order list tox
