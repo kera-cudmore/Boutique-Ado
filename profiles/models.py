@@ -11,7 +11,7 @@ class UserProfile(models.Model):
     A user profile model for maintaining default
     delivery information and order history
     """
-    default_user = models.OneToOneField(
+    user = models.OneToOneField(
         User,
         on_delete=models.CASCADE)
     default_phone_number = models.CharField(
