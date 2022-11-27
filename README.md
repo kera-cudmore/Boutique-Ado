@@ -4,7 +4,7 @@
 
 Boutique Ado is a full stack e-commerce site utilising Django, stripe payments and AWS.
 
-Link to deployed site: to go here.
+Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/Boutique-Ado?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/boutique-ado?style=for-the-badge)
