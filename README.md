@@ -125,7 +125,7 @@ The font Lato has been used throughout the site. This was imported into the CSS 
 
 ### Languages Used
 
-HTML, CSS, JavaScript, Python
+HTML, CSS, JavaScript, Python 3
 
 ### Databases Used
 
@@ -141,6 +141,29 @@ ElephantSQL - For the deployed sites database.
 ### Libraries & Packages Used
 
 [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) - Version 0.41.0 - Used for authentication, registration & account management.
+
+[dj_database_url](https://pypi.org/project/dj-database-url/0.5.0/) - Version 0.5.0 - Allows us to utilise the DATABASE_URL environment variable.
+
+[Stripe](https://pypi.org/project/stripe/) - Version 5.0.0 - To allow us to utilise the Stripe API for payments.
+
+[gunicorn](https://pypi.org/project/gunicorn/) - Version 20.1.0
+
+[psycopg2](https://pypi.org/project/psycopg2/) - Version 2.9.5 - A postgres database adaptor.
+
+[pillow](https://pypi.org/project/Pillow/) - Version 9.3.0 - A python imaging library.
+asgiref==3.5.2
+
+[django-countries](https://pypi.org/project/django-countries/7.2.1/) - Version 7.2.1
+
+[django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Version 1.14.0
+
+oauthlib==3.2.1
+
+pytz==2022.4
+
+requests-oauthlib==1.3.1
+
+sqlparse==0.4.3
 
 ### Programs Used
 
