@@ -2,7 +2,7 @@
 
 Responsive site image to go here
 
-link to the deployed site to go here
+link to the deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
 
 ---
 
@@ -29,11 +29,11 @@ link to the deployed site to go here
 
 ### HTML & CSS Validation
 
-W3C validator
+[W3C validator](https://validator.w3.org/) was used to validate the HTML and CSS files in this project.
 
 ### JavaScript Validation
 
-JS Hint
+[JS Hint](https://jshint.com/) was used to validate the projects JavaScript files.
 
 ### Python Validation
 
@@ -41,11 +41,15 @@ PEP8 style guideline compliance was checked using [pycodestyle](https://pycodest
 
 ### Lighthouse Testing
 
+[Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) testing was performed on the site to check for performance, accessibility, best practices and SEO.
+
 #### Desktop
 
 #### Mobile
 
 ### WAVE Accessibility Testing
+
+[WAVE](https://wave.webaim.org/) (web accessibility evaluation tool) was used on the site to check for issues relating to accessibility.
 
 ---
 
