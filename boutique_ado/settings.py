@@ -114,7 +114,7 @@ ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 # email required to register for the site
 ACCOUNT_EMAIL_REQUIRED = True
 # email verified so we know its a real email
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 # email has to be entered twice on registration page to ensure no typos
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 # min length for the username
