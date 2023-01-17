@@ -1,8 +1,8 @@
 # Boutique Ado
 
-![Boutique Ado Banner](https://user-images.githubusercontent.com/92253071/196004237-151b3755-3e6b-4436-b5ee-e6a0c75ffce1.png)
+![Boutique Ado Banner](documentation/boutique-ado-banner.png)
 
-Boutique Ado is a full stack e-commerce site utilising Django, stripe payments and AWS.
+Boutique Ado is a full stack business to customer (B2C) e-commerce site utilising Django, stripe payments and AWS.
 
 Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
 
