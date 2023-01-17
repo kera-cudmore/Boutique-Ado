@@ -1,8 +1,8 @@
 # Boutique Ado - Testing
 
-Responsive site image to go here
+![Boutique Ado Banner](documentation/boutique-ado-banner.png)
 
-link to the deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
+Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
 
 ---
 
