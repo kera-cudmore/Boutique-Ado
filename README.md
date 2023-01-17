@@ -49,10 +49,6 @@ Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuap
 
 ---
 
-Responsive site image to go here.
-
----
-
 ## User Experience
 
 ### Project Goals
