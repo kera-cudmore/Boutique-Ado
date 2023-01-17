@@ -24,6 +24,7 @@ Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuap
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
   * [Database Schema](#database-schema)
+  * [Fixtures](#fixtures)
 * [Features](#features)
   * [General Features of Each Page](#general-features-of-each-page)
   * [Future Implementations](#future-implementations)
@@ -108,6 +109,21 @@ The font Lato has been used throughout the site. This was imported into the CSS 
 ### Wireframes
 
 ### Database Schema
+
+### Fixtures
+
+This project utilises fixtures to quickly load a large amount of categories and products into the database via a JSON file. The JSON file contains all the relevent information for each product to be listed on the site. To utilise this method we need to create a fixtures folder in the products folder to store the JSON files. We need to create the categories model first, as the products use the categories as a foreign key. Then create the model for the products. To make use of the image field we've created we will need to install pillow with the command:
+
+```bash
+pip3 install pillow
+```
+
+We can now run the migrations to create the database tables for the categories and the products, and then add them to the admin.py file in the products app. Finally to install the fixtures using the following command:
+
+```bash
+python3 manage.py loaddata categories
+python3 manage.py loaddata products
+```
 
 ---
 
