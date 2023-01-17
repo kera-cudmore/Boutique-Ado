@@ -1,6 +1,20 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_meta %}
+    <meta name="description" content="Boutique Ado - Add Product. Boutique Ado, an online ecommerce store selling all you need from fashion to home!">
+    <meta name="keywords" content="e-commerce, shopping, boutique ado, store, homewares, clothes, gifts">
+
+    <!-- Social Media - Facebook, LinkedIn, Google -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Boutique Ado - Add Product">
+    <meta property="og:description" content="Boutique Ado - Add Product. Boutique Ado, an online ecommerce store selling all you need from fashion to home!"> 
+    <meta name="image" property="og:image" content="#">
+    <meta property="og:image:alt" content="Boutique Ado ecommerce store shown on a variety of devices, from mobile to desktop">
+    <meta property="og:url" content="https://kera-cudmore-boutique-ado.herokuapp.com/">
+    <meta property="og:site_name" content="Boutique Ado - Add Product">
+{% endblock %}
+
     {% block page_header %}
         <div class="container header-container">
             <div class="row">
