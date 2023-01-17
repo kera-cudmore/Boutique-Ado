@@ -127,6 +127,20 @@ python3 manage.py loaddata products
 
 ### General Features of Each Page
 
+* Favicon - Each page of the site has a favicon of a handbag on a yellow background. The yellow is the same one used on the home page of the site.
+
+    ![Favicon](documentation/favicon.png)
+
+* Navbar - The navbar is avaiable on all pages of the site, and is responsive on smaller screens by utilising a hamburger toggler menu.
+
+    ![Navbar Desktop](documentation/navbar-desktop.png)
+
+    [Navbar Mobile]
+
+* Delivery Banner - the delivery banner lets users know what the threshold is on spending before they achieve free delivery. This could be changed out to display other important messages - for example it could show order cut off dates for guaranteed Christmas delivery in the run up to Christmas, or other promotional offers.
+
+    ![Delivery Banner](documentation/delivery-banner.png)
+
 ### Future Implementations
 
 ### Accessibility
@@ -190,6 +204,8 @@ sqlparse==0.4.3
 [Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
 
 [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
+
+[Favicon.io](https://favicon.io/favicon-generator/) - To create the favicon
 
 ### Stripe
 
