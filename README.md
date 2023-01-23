@@ -53,6 +53,10 @@ Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuap
 
 ### Project Goals
 
+Boutique Ado is a Business to Consumer (B2C) e-commerce site.
+
+The sites primary audience will be people who want to be able to shop for a variety of products in one place.
+
 ### User Stories
 
 | User Story ID | As a/an | I want to be able to ... | So that I can... |
@@ -94,11 +98,15 @@ Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuap
 
 ### Colour Scheme
 
+As the primary focus of the site is on the products for sale, the site uses a very small colour palette.
+
+![Boutique Ado Colour Scheme](documentation/readme/colour-scheme.png)
+
 ### Typography
 
 The font Lato has been used throughout the site. This was imported into the CSS file from Google Fonts.
 
-![Lato Font Examples](documentation/lato-font.png)
+![Lato Font Examples](documentation/readme/lato-font.png)
 
 ### Imagery
 
@@ -129,17 +137,17 @@ python3 manage.py loaddata products
 
 * Favicon - Each page of the site has a favicon of a handbag on a yellow background. The yellow is the same one used on the home page of the site.
 
-    ![Favicon](documentation/favicon.png)
+    ![Favicon](documentation/readme/favicon.png)
 
 * Navbar - The navbar is avaiable on all pages of the site, and is responsive on smaller screens by utilising a hamburger toggler menu.
 
-    ![Navbar Desktop](documentation/navbar-desktop.png)
+    ![Navbar Desktop](documentation/readme/navbar-desktop.png)
 
     [Navbar Mobile]
 
 * Delivery Banner - the delivery banner lets users know what the threshold is on spending before they achieve free delivery. This could be changed out to display other important messages - for example it could show order cut off dates for guaranteed Christmas delivery in the run up to Christmas, or other promotional offers.
 
-    ![Delivery Banner](documentation/delivery-banner.png)
+    ![Delivery Banner](documentation/readme/delivery-banner.png)
 
 ### Future Implementations
 
