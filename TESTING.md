@@ -30,7 +30,7 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 
 ### HTML Validation
 
-[W3C validator](https://validator.w3.org/) was used to validate the HTML and CSS files in this project.
+[W3C validator](https://validator.w3.org/) was used to validate the HTML in this project.
 
 | Page | Result |
 | :--- | :--- |
@@ -44,6 +44,8 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 | profile | |
 
 ### CSS Validation
+
+[W3C validator](https://validator.w3.org/) was used to validate the CSS in this project.
 
 | File | Result |
 | :--- | :--- |
