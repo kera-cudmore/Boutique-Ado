@@ -110,6 +110,8 @@ The font Lato has been used throughout the site. This was imported into the CSS 
 
 ### Imagery
 
+Boutique Ado utilises one image on the home page. All other imagery on the site is of products for sale.
+
 ### Wireframes
 
 ### Database Schema
@@ -151,7 +153,17 @@ python3 manage.py loaddata products
 
 ### Future Implementations
 
+In a future implementation I would like to add in a robust stock management system, a newsletter for customers and a coupon system. It would also be useful to provide a contact form on the site to allow customers to be able to contact the store, and to add in some policies - for example a privacy policy, terms and conditions, cookies and delivery policies.
+
 ### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no text.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Accessibility was tested using Lighthouse and WAVE and further information can be found in the [TESTING.md](TESTING.md).
 
 ---
 
@@ -199,6 +211,14 @@ requests-oauthlib==1.3.1
 
 sqlparse==0.4.3
 
+psycopg2 - a postgres database adapter which allow us to connect with a postgres database
+
+django-storages - a storage backend library
+
+boto3 - Allows connection to AWS S3 bucket
+
+coverage - Used to see where there are areas of missing tests
+
 ### Programs Used
 
 [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
@@ -217,7 +237,17 @@ sqlparse==0.4.3
 
 ### Stripe
 
-Stripe - setting up stripe elements to accept payment [docs](https://stripe.com/docs/js)
+[Stripe](https://stripe.com/gb) has been used in the project to implement the payment system.
+
+Stripe for the website is currently in developer mode, which allows us to be able to process test payments to check the function of the site.
+
+| Type | Card No | Expiry | CVC | ZIP |
+| :--- | :--- |:--- | :--- | :--- |
+| Success| Visa | 4242 4242 4242 4242 | A date in the future | Any 3 digits | Any 5 digits |
+| Require authorisation | 4000 0027 6000 3184 | A date in the future | Any 3 digits | Any 5 digits |
+| Declined | 4000 0000 0000 0002 | A date in the future | Any 3 digits | Any 5 digits |
+
+Stripe Documentation- setting up stripe elements to accept payment [docs](https://stripe.com/docs/js)
 
 ---
 
@@ -488,7 +518,7 @@ To clone the repository:
 
 1. Log in (or sign up) to GitHub.
 
-2. Go to the repository for the project.
+2. Go to the repository for the project, [Boutique Ado](https://github.com/kera-cudmore/Boutique-Ado).
 
 3. Click the Code button, select whether you would like to clone with HTTPS, SSH or the GitHub CLI and copy the link given.
 
@@ -525,3 +555,5 @@ The content required for the site was provided as part of the lesson materials b
 ### Media
 
 A link to download the product images was provided by the Code Institute, who sourced the material from [kaggle](https://www.kaggle.com/).
+
+The home page image was also provided by the Code Insitute.
