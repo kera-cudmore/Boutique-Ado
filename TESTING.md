@@ -39,6 +39,34 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 
 PEP8 style guideline compliance was checked using [pycodestyle](https://pycodestyle.pycqa.org/en/latest/index.html) in the IDE while developing the project and [CI Python Linter](https://pep8ci.herokuapp.com/) was also used to check all python files were free of errors.
 
+| File | Result |
+| :--- | :--- |
+| boutique_ado/settings.py | Pass |
+| boutique_ado/urls.py | Pass |
+| bag/contexts.py | Pass |
+| bag/urls.py | Pass |
+| bag/views.py | Pass |
+| checkout/admin.py | Pass |
+| checkout/forms.py | Pass |
+| checkout/models.py | |
+| checkout/signals.py | Pass |
+| checkout/urls.py | Pass |
+| checkout/views.py | Pass |
+| checkout/webhook_handler.py | Pass |
+| checkout/webhooks.py | Pass |
+| home/urls.py | Pass |
+| home/views.py | Pass |
+| products/admin.py | Pass |
+| products/forms.py | Pass |
+| products/models.py | Pass |
+| products/urls.py | Pass |
+| products/views.py | Pass |
+| products/widgets.py | Pass |
+| profiles/forms.py | Pass |
+| profiles/models.py | Pass |
+| profiles/urls.py | Pass |
+| profiles/views.py | Pass |
+
 ### Lighthouse Testing
 
 [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) testing was performed on the site to check for performance, accessibility, best practices and SEO.
