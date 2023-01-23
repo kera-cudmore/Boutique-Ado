@@ -9,7 +9,8 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 ## CONTENTS
 
 * [Automated Testing](#automated-testing)
-  * [HTML & CSS Validation](#html--css-validation)
+  * [HTML Validation](#html-validation)
+  * [CSS Validation](#css-validation)
   * [JavaScript Validation](#javascript-validation)
   * [Python Validation](#python-validation)
   * [Lighthouse Testing](#lighthouse-testing)
@@ -27,13 +28,35 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 
 ## Automated Testing
 
-### HTML & CSS Validation
+### HTML Validation
 
 [W3C validator](https://validator.w3.org/) was used to validate the HTML and CSS files in this project.
+
+| Page | Result |
+| :--- | :--- |
+| home | |
+| products page | |
+| products details | |
+| add product | |
+| edit product | |
+| bag | |
+| checkout | |
+| profile | |
+
+### CSS Validation
+
+| File | Result |
+| :--- | :--- |
+| static/css/base.css | Pass |
+| checkout/static/css/checkout.css | Pass |
 
 ### JavaScript Validation
 
 [JS Hint](https://jshint.com/) was used to validate the projects JavaScript files.
+
+| File | Result |
+| :--- | :--- |
+| checkout/static/js/stripe_elements.js | Pass (Mentions one unused variable - stripe) |
 
 ### Python Validation
 
