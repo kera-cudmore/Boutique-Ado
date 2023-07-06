@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['kera-cudmore-boutique-ado.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['kera-cudmore-boutique-ado.herokuapp.com', 'localhost', "127.0.0.1"]
 
 
 # Application definition
