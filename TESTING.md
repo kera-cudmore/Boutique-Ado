@@ -31,6 +31,7 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 | :--- | :--- |
 | static/css/base.css | Pass |
 | checkout/static/css/checkout.css | Pass |
+| profiles/static/css/profile.css | Pass |
 
 ### JavaScript Validation
 
@@ -39,6 +40,7 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 | File | Result |
 | :--- | :--- |
 | checkout/static/js/stripe_elements.js | Pass (Mentions one unused variable - stripe) |
+| profiles/static/js/countryfield.js | Pass |
 
 ### Python Validation
 
