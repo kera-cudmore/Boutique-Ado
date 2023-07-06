@@ -76,14 +76,14 @@ The sites primary audience will be people who want to be able to shop for a vari
 | **SORTING & SEARCHING** |
 | 11 | Shopper | Sort the list of available products | Easily identify the best rated, best priced and categorically sort products |
 | 12 | Shopper | Sort a specific category of product | Find the best-priced or best-rated product in a specific category, or sort the products in that category by name |
-| 13 | Shopper | Sort multiple categories of products simutaneously | Find the best-priced or best-rated products across broad categories, such as clothing or homeware |
+| 13 | Shopper | Sort multiple categories of products simultaneously | Find the best-priced or best-rated products across broad categories, such as clothing or homeware |
 | 14 | Shopper | Search for a product by name or description | Find a specific product I'd like to purchase |
 | 15 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
 | **PURCHASING & CHECKOUT** |
 | 16 | Shopper | Easily select the size and quantity of a product when purchasing it | Ensure I don't accidentally select the wrong product, quantity or size |
 | 17 | Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
 | 18 | Shopper | Adjust the quantity of individual items in my bag| Easily make changes to my purchase before checkout |
-| 19 | Shopper | Easily eneter my payment information | Check out quickly and with no hassles |
+| 19 | Shopper | Easily enter my payment information | Check out quickly and with no hassles |
 | 20 | Shopper | Feel my personal and payment information is safe and secure | Confidently provide the needed information to make a purchase |
 | 21 | Shopper | View an order confirmation after checkout | Verify that I haven't made any mistakes |
 | 22 | Shopper | Receive an email confirmation after checking out | Keep the confirmation of what I've purchased for my records |
@@ -118,7 +118,7 @@ Boutique Ado utilises one image on the home page. All other imagery on the site 
 
 ### Fixtures
 
-This project utilises fixtures to quickly load a large amount of categories and products into the database via a JSON file. The JSON file contains all the relevent information for each product to be listed on the site. To utilise this method we need to create a fixtures folder in the products folder to store the JSON files. We need to create the categories model first, as the products use the categories as a foreign key. Then create the model for the products. To make use of the image field we've created we will need to install pillow with the command:
+This project utilises fixtures to quickly load a large amount of categories and products into the database via a JSON file. The JSON file contains all the relevant information for each product to be listed on the site. To utilise this method we need to create a fixtures folder in the products folder to store the JSON files. We need to create the categories model first, as the products use the categories as a foreign key. Then create the model for the products. To make use of the image field we've created we will need to install pillow with the command:
 
 ```bash
 pip3 install pillow
@@ -141,7 +141,7 @@ python3 manage.py loaddata products
 
     ![Favicon](documentation/readme/favicon.png)
 
-* Navbar - The navbar is avaiable on all pages of the site, and is responsive on smaller screens by utilising a hamburger toggler menu.
+* Navbar - The navbar is available on all pages of the site, and is responsive on smaller screens by utilising a hamburger toggler menu.
 
     ![Navbar Desktop](documentation/readme/navbar-desktop.png)
 
@@ -359,7 +359,7 @@ We have been using the sqlite3 database in development, however this is only ava
     ALLOWED_HOSTS = ['{heroku deployed site URL here}', 'localhost' ]
     ```
 
-14. Save, add, commit and push the changes to GitHub. You can then also initialize the Heroku git remote in the terminal and push to Heroku with:
+14. Save, add, commit and push the changes to GitHub. You can then also initialise the Heroku git remote in the terminal and push to Heroku with:
 
     ```bash
     heroku git:remote -a {app name here}
@@ -427,7 +427,7 @@ We have been using the sqlite3 database in development, however this is only ava
 5. We need to make a change to the resources, we need to make resources an array and then change the value for resources. Instead of a `*` which allows all access, we want to paste in our ARN. followed by a comma, and then paste the ARN in again on the next line with `/*` at the end. This allows all actions on our bucket, and all the resources in it.
 6. Click the next: tags button and then the next:review .
 7. Give the policy a name and description (e.g. boutique-ado-policy | Access to S3 bucket for boutique ado static files.) Click the create policy button.
-8. Now we need to atach the policy we just created. On the left hand navigation menu click user groups, select the group and go to the permissions tab. Click the add permissions button on the right and choose attach policies from the dropdown.
+8. Now we need to attach the policy we just created. On the left hand navigation menu click user groups, select the group and go to the permissions tab. Click the add permissions button on the right and choose attach policies from the dropdown.
 9. Select the policy you just created and then click add permissions at the bottom.
 10. Now we'll create a user for the group by clicking on the user link in the left hand navigation menu, clicking the add users button on the top right and giving our user a username (e.g. boutique-ado-staticfiles-user). Select programmatic access and then click the next: permissions button.
 11. Add the user to the group you just created and then click next:tags button, next:review button and then create user button.
@@ -556,4 +556,4 @@ The content required for the site was provided as part of the lesson materials b
 
 A link to download the product images was provided by the Code Institute, who sourced the material from [kaggle](https://www.kaggle.com/).
 
-The home page image was also provided by the Code Insitute.
+The home page image was also provided by the Code Institute.
