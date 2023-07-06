@@ -17,11 +17,11 @@ Visit the deployed site here: [Boutique Ado](https://kera-cudmore-boutique-ado.h
 | Home | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2F) |
 | Products page | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fproducts%2F) |
 | Products details | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fproducts%2F2%2F) |
-| Add product | []() |
-| Edit product | []() |
-| Bag | []() |
-| Checkout | []() |
-| Profile | []() |
+| Add product | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fproducts%2Fadd%2F) |
+| Edit product | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fproducts%2Fedit%2F8%2F) |
+| Bag | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fbag%2F) |
+| Checkout | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fcheckout%2F) |
+| Profile | [Pass](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore-boutique-ado.herokuapp.com%2Fprofile%2F) |
 
 ### CSS Validation
 
