@@ -144,9 +144,9 @@ HTML, CSS, JavaScript, Python 3
 
 ### Frameworks Used
 
-[Django](https://www.djangoproject.com/) - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+* [Django](https://www.djangoproject.com/) - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 
-[Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Version 4.6 - A framework for building responsive, mobile-first sites.
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Version 4.6 - A framework for building responsive, mobile-first sites.
 
 ### Libraries & Packages Used
 
@@ -186,23 +186,23 @@ HTML, CSS, JavaScript, Python 3
 
 ### Programs Used
 
-[Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-[Shields.io](https://shields.io/) - To add badges to the projects documentation.
+* [Shields.io](https://shields.io/) - To add badges to the projects documentation.
 
-[Git](https://git-scm.com/) - For version control.
+* [Git](https://git-scm.com/) - For version control.
 
-[GitHub](https://github.com/) - To save and store the files for this project.
+* [GitHub](https://github.com/) - To save and store the files for this project.
 
-[Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
+* [Pip](https://pypi.org/project/pip/) - A tool for installing Python packages.
 
-[Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot, test features and solve issues with responsiveness and styling.
 
-[Favicon.io](https://favicon.io/favicon-generator/) - To create the favicon
+* [Favicon.io](https://favicon.io/favicon-generator/) - To create the favicon
 
 ### Stripe
 
-[Stripe](https://stripe.com/gb) has been used in the project to implement the payment system.
+* [Stripe](https://stripe.com/gb) has been used in the project to implement the payment system.
 
 Stripe for the website is currently in developer mode, which allows us to be able to process test payments to check the function of the site.
 
