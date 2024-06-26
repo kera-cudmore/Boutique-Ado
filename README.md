@@ -7,45 +7,8 @@ Boutique Ado is a full stack business to customer (B2C) e-commerce site utilisin
 Link to deployed site: [Boutique Ado](https://kera-cudmore-boutique-ado.herokuapp.com/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/Boutique-Ado?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/boutique-ado?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/boutique-ado?color=orange&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/boutique-ado?color=yellow&style=for-the-badge)
-
----
-
-## CONTENTS
-
-* [User Experience](#user-experience)
-  * [Project Goals](#project-goals)
-  * [User Stories](#user-stories)
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-  * [Database Schema](#database-schema)
-  * [Fixtures](#fixtures)
-* [Features](#features)
-  * [General Features of Each Page](#general-features-of-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Databases Used](#databases-used)
-  * [Frameworks Used](#frameworks-used)
-  * [Libraries & Packages Used](#libraries--packages-used)
-  * [Programs Used](#programs-used)
-  * [Stripe](#stripe)
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
 
 ---
 
@@ -175,49 +138,51 @@ HTML, CSS, JavaScript, Python 3
 
 ### Databases Used
 
-sqlite3 - for the development database.
-ElephantSQL - For the deployed sites database.
+* sqlite3 - for the development database.
+* ~~ElephantSQL - For the deployed sites database.~~ - ElephantSQL announced EOL for its service in February 2024.
+* [Neon](https://neon.tech) For the deployed site database
 
 ### Frameworks Used
 
-[Django](https://www.djangoproject.com/) - Version 3.2.16 - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+[Django](https://www.djangoproject.com/) - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 
 [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Version 4.6 - A framework for building responsive, mobile-first sites.
 
 ### Libraries & Packages Used
 
-[Django Allauth](https://django-allauth.readthedocs.io/en/latest/) - Version 0.41.0 - Used for authentication, registration & account management.
+* [Django Allauth](https://django-allauth.readthedocs.io/en/latest/)  - Used for authentication, registration & account management.
 
-[dj_database_url](https://pypi.org/project/dj-database-url/0.5.0/) - Version 0.5.0 - Allows us to utilise the DATABASE_URL environment variable.
+* [dj_database_url](https://pypi.org/project/dj-database-url/0.5.0/) - Allows us to utilise the DATABASE_URL environment variable.
 
-[Stripe](https://pypi.org/project/stripe/) - Version 5.0.0 - To allow us to utilise the Stripe API for payments.
+* [Stripe](https://pypi.org/project/stripe/) - Version 5.0.0 - To allow us to utilise the Stripe API for payments.
 
-[gunicorn](https://pypi.org/project/gunicorn/) - Version 20.1.0
+* [gunicorn](https://pypi.org/project/gunicorn/) - a Python WSGI HTTP Server
 
-[psycopg2](https://pypi.org/project/psycopg2/) - Version 2.9.5 - A postgres database adaptor.
+* [psycopg2](https://pypi.org/project/psycopg2/) - A postgres database adaptor.
 
-[pillow](https://pypi.org/project/Pillow/) - Version 9.3.0 - A python imaging library.
-asgiref==3.5.2
+* [pillow](https://pypi.org/project/Pillow/)  - A python imaging library.
 
-[django-countries](https://pypi.org/project/django-countries/7.2.1/) - Version 7.2.1
+* asgiref
 
-[django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Version 1.14.0
+* [django-countries](https://pypi.org/project/django-countries/7.2.1/) - This is the latest stable version that is compatible with GitPod
 
-oauthlib==3.2.1
+* [django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - provides a tag and filter that lets you quickly render forms
 
-pytz==2022.4
+* oauthlib
 
-requests-oauthlib==1.3.1
+* pytz
 
-sqlparse==0.4.3
+* requests-oauthlib
 
-psycopg2 - a postgres database adapter which allow us to connect with a postgres database
+* sqlparse
 
-django-storages - a storage backend library
+* psycopg2 - a postgres database adapter which allow us to connect with a postgres database
 
-boto3 - Allows connection to AWS S3 bucket
+* django-storages - a storage backend library
 
-coverage - Used to see where there are areas of missing tests
+* boto3 - Allows connection to AWS S3 bucket
+
+* coverage - Used to see where there are areas of missing tests
 
 ### Programs Used
 
